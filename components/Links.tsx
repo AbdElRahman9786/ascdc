@@ -8,7 +8,7 @@ function Links() {
   return (
   <>
     <div>
-        <ul className={`flex gap-10 ${window.innerWidth<=1000&&'flex flex-col'}`}>
+        <ul className="flex gap-10 ">
           <li>
             <Link href="/aboutus">{t('About us')}</Link>
           </li>

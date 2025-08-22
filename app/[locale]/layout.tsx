@@ -35,7 +35,7 @@ const RootLayout:React.FC<Props>=({
         <Navbar/>
 
         {children}
-        <Footer/>
+        {/* <Footer/> */}
         </NextIntlClientProvider>
         </body>
         

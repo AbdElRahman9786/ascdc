@@ -10,15 +10,15 @@ import WhyUs from "@/components/WhyUs";
 
 export default function Home() {
   return (
-    <main className="overflow-hidden">
+    <main className="">
      <Hero/>
      <WhyUs/>
      <Build/>
-     <Services/>
+     {/* <Services/>
      <Experince/>
      <LastWork/>
      <Clinets/>
-     <Form/>
+     <Form/> */}
     </main>
   );
 }

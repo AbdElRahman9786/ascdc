@@ -14,8 +14,8 @@ export default function Home() {
      <Hero/>
      <WhyUs/>
      <Build/>
-     {/* <Services/>
-     <Experince/>
+     <Services/>
+     {/* <Experince/>
      <LastWork/>
      <Clinets/>
      <Form/> */}

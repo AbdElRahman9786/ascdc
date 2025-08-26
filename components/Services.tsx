@@ -18,7 +18,7 @@ function Services() {
         <div className="bg-white w-[90%] mx-auto rounded-md max-lg:bg-black max-lg:text-white">
           <div className=" flex flex-col max-lg:flex max-lg:flex-row">
             <div className=" flex items-center justify-center flex-wrap">
-              <div className="basis-1/2 p-4 max-lg:basis-full">
+              <div className="basis-1/2 p-4 max-lg:basis-full ">
                 <Image
                   src={pic2}
                   alt="pic/one"
@@ -40,14 +40,14 @@ function Services() {
                     unique needs of your facility, providing a seamless and
                     efficient experience. team boasts expertise in a diverse
                     range of programming languages, development frameworks, and
-                    industry best practices.{" "}
+                    industry best practices.
                   </p>
                 </div>
               </div>
             </div>
             <div className=" flex items-center justify-center flex-wrap">
              
-              <div className="  basis-1/2 p-5 max-lg:basis-full max-lg:order-2 max-lg:p-2">
+              <div className="  basis-1/2 p-5 max-lg:basis-full max-lg:p-2 max-md:order-2">
                 <div className="">
                   <h1 className="font-bold t text-4xl max-lg:text-xl">
                     Innovative Facility Management Solutions
@@ -62,11 +62,11 @@ function Services() {
                     unique needs of your facility, providing a seamless and
                     efficient experience. team boasts expertise in a diverse
                     range of programming languages, development frameworks, and
-                    industry best practices.{" "}
+                    industry best practices.
                   </p>
                 </div>
               </div>
-               <div className="basis-1/2 max-lg:order-1 max-lg:basis-full">
+               <div className="basis-1/2 p-4 max-lg:basis-full max-md:order-1">
                 <Image
                   src={pic1}
                   alt="pic/one"

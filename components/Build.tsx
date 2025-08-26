@@ -20,14 +20,14 @@ function Build() {
           <div className=" ">
             <p className="capitalize ">Embark on a journey of digital transformation with ASDC. Whether you have a specific project in mind or need guidance on where to start, we're here to help. Let's collaborate, innovate, and bring your ideas to life. Welcome to a world of limitless possibilities. Welcome to ASDC.</p>
           </div>
-          <div className=" flex items-center  ">
+          <div className=" flex items-center gap-3 ">
             <div className="   ">
-            <button className="border px-4 py-2 rounded border-black mr-4 hover:bg-black hover:text-white duration-300">
+            <button className="border px-4 py-2 rounded border-black   hover:bg-black hover:text-white duration-300">
             <Link href="/contactus"> {t("Contact us")} </Link>
           </button>
             </div>
             <div className="  ">
-                <button className="bg-black text-white rounded px-4 py-2 hover:text-black hover:bg-white duration-300">{t("get a qoute now")}</button>
+                <button className="bg-black text-white rounded px-4 py-2  hover:text-black hover:bg-white duration-300">{t("get a qoute now")}</button>
             </div>
           </div>
         </div>

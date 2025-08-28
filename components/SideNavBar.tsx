@@ -2,13 +2,16 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import img from '../public/bgnavbar.png';
-import Links from './Links'; // Import your Links component
-import Button from './Buttom'; // Import your Button component
+import Links from './Links'; 
+import Button from './Buttom'; 
 import lgo from '../public/logo.png'
+import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 
 function SideNavBar() {
     const [close,setclose]=useState(false);
+     const t=useTranslations();
     useEffect(()=>{
         setclose(false);
     },[])
@@ -28,17 +31,34 @@ function SideNavBar() {
 
 </div>
 </div>
-        </div>
-        <div className='absolute top-28 w-full  '>
-          <div className='w-full h-full flex items-center justify-center '>
+  
            
-            <Links />
-          </div>
+            <ul className="flex flex-col gap-10 text-white ">
+          <li>
+            <Link href="/aboutus">{t('About us')}</Link>
+          </li>
+          <li>
+            <Link href="/aboutus">{t('Servecis')}</Link>
+          </li>
+          <li>
+            <Link href="/aboutus">Work</Link>
+          </li>
+          <li>
+            <Link href="/aboutus">Clints</Link>
+          </li>
+          <li>
+            <Link href="#whyus">Why us</Link>
+          </li>
+        </ul>
+          
           <div className=' pt-6'>
             
             <Button />
           </div>
         </div>
+        
+        
+        
       </div>
     </>
   );

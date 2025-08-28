@@ -9,21 +9,22 @@ import phone from "../public/phone.svg";
 
 const Footer = () => {
   return (
-    <div className="w-[100%] h-[316px] xl:w-[100%] xl:h-[316px] sm:h-[439px] bg-black flex flex-col items-center  justify-center">
-      <div className="w-[1200px] h-[180px] xl:w-[696px] xl:h-[180px] flex justify-between sm:w-[312px] sm:h-[303px] sm:flex-wrap ">
-        <div className="w-[600px] h-[91px] xl:w-[348px] sm:w-[312px] sm:h-[91px] flex flex-col sm:items-center sm:text-center">
-          <div className="w-[72px] h-[64px]">
+    <div className=" bg-[#212121] p-20 max-lg:p-3 max-lg:py-20">
+      <div className="flex justify-between gap-6 w-[80%] mx-auto mb-10 flex-wrap">
+       
+          <div className="basis-1/3">
             <Image src={logo} alt="logo/img" />
-          </div>
-          <div className="w-[344px] h-[19px]">
-            <p className=" capitalize opacity-[70%] text-white">
+             <p className=" capitalize opacity-[70%] text-white">
               We provide your needs
             </p>
           </div>
-        </div>
-        <div className="w-[600px] h-[180px] xl:w-[348px] sm:w-[312px]    flex">
-          <div className="w-[300px] h-[180px]  xl:w-[174px] sm:w-[156px] text-white flex flex-col">
-            <div className="w-[100%] h-[32px]">
+          
+           
+          
+        
+        
+          <div className=" text-white flex flex-col">
+            <div className="">
               <p className="opacity-[70%]">Quick Links</p>
             </div>
             <div>
@@ -35,14 +36,14 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="w-[300px] h-[180px] xl:w-[174px] sm:w-[156px] flex flex-col">
-            <div className="w-[100%] h-[32px] ">
+          <div className=" flex flex-col">
+            <div className=" ">
               <p className="opacity-[70%] text-white">Contact Us</p>
             </div>
             <div>
               <ul className="text-white">
                 <li>
-                  <div className="w-[100%] h-[32px]  flex gap-2 items-center text-white">
+                  <div className="  flex gap-2 items-center text-white">
                     <div>
                       <Image src={phone} alt="phone/img" />
                     </div>
@@ -52,7 +53,7 @@ const Footer = () => {
                   </div>
                 </li>
                 <li>
-                  <div className="w-[100%] h-[32px]  flex gap-2 items-center text-white">
+                  <div className="  flex gap-2 items-center text-white">
                     <div>
                       <Image src={email} alt="email/img" />
                     </div>
@@ -62,7 +63,7 @@ const Footer = () => {
                   </div>
                 </li>
                 <li>
-                  <div className="w-[100%] h-[32px]  flex gap-2 items-center text-white">
+                  <div className="  flex gap-2 items-center text-white">
                     <div>
                       <Image src={linkedin} alt="linkedin/img" />
                     </div>
@@ -74,9 +75,9 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-        </div>
+        
       </div>
-      <div className="w-[1200px] h-[32px] xl:w-[696px] sm:w-[312px] ">
+      <div className=" ">
 <p className="text-center text-white capitalize opacity-[70%]">@2024 ASDC. All rights reserved.</p>
       </div>
     </div>

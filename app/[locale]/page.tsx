@@ -17,8 +17,8 @@ export default function Home() {
      <Services/>
      <Experince/>
      <LastWork/>
-     {/* <Clinets/>
-     <Form/> */}
+     <Clinets/>
+     <Form/>
     </main>
   );
 }

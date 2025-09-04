@@ -27,7 +27,7 @@ const params = useParams();
       {t("software Consulting And Development")} </h1>
 </div>
 <div className=' '>
-    <p className=' capitalize  text-xl '>{t('a cutting-edge software development company, where innovation meets excellence in software solutions')}.</p>
+    <p className=' capitalize  text-xl '>{t('hero_description')}.</p>
 </div>
         </div>
      

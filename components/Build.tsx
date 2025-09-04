@@ -11,14 +11,14 @@ function Build() {
   const t=useTranslations();
   return (
     
-      <div className=" flex px-20 justify-between  mt-20 flex-wrap max-md:px-4 max-md:gap-10 max-md:justify-center mb-20 ">
+      <div className=" flex px-20 justify-between  mt-20 flex-wrap max-md:px-4 max-md:gap-10 max-md:justify-center mb-20 overflow-hidden ">
         <div className="pt-6 flex flex-col justify-between basis-1/3 max-xl:basis-full max-xl:items-center max-md:basis-full gap-6 max-md:items-center max-md:text-center ">
           <div className="">
             <h1 className="font-bold
              text-4xl max-md:text-2xl">{t("Let's Build Something Extraordinary Together")}</h1>
           </div>
           <div className=" ">
-            <p className="capitalize ">Embark on a journey of digital transformation with ASDC. Whether you have a specific project in mind or need guidance on where to start, we're here to help. Let's collaborate, innovate, and bring your ideas to life. Welcome to a world of limitless possibilities. Welcome to ASDC.</p>
+            <p className="capitalize " data-aos="fade-left">{t("build_description")}</p>
           </div>
           <div className=" flex items-center gap-3 ">
             <div className="   ">
@@ -31,7 +31,7 @@ function Build() {
             </div>
           </div>
         </div>
-        <div className="max-md:hidden basis-1/2 max-xl:basis-full ">
+        <div className="max-md:hidden basis-1/2 max-xl:basis-full " data-aos='fade-right'>
           <Image src={pic} alt="image" className= "rounded-md w-full max-xl:mt-5"  />
         </div>
       </div>

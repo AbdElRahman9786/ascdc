@@ -1,15 +1,24 @@
 {
   
     "software Consulting And Development":"استشارات و تطوير البرمجيات",
-    "a cutting-edge software development company, where innovation meets excellence in software solutions.  ":"شركة تطوير برمجيات متطورة، حيث يلتقي الابتكار مع التميز في الحلول البرمجية.",
+    "a cutting-edge software development company, where innovation meets excellence in software solutions":"شركة تطوير برمجيات متطورة، حيث يلتقي الابتكار مع التميز في الحلول البرمجية",
     "About us":"ماذا عنا",
     "Servecis":"خدماتنا",
     "why US":"لماذا نحن",
     "Here’s why people choose to work with ASDC":"هذا هو السبب الذي يجعل الناس يختارون العمل مع ASDC ",
     "Expertise You Can Trust":" الخبرة التي يمكنك الوثوق بها ",
-    " Our team boasts expertise in a diverse range of programming languages development frameworks, and industry best practices. We stay ahead of the curve ensuring that yourprojects benefit from the latest technological advancements.":"يتمتع فريقنا بالخبرة في مجموعة متنوعة من لغات البرمجة وأطر التطوير وأفضل ممارسات الصناعة. ,نحن نبقى في الطليعة، ونضمن أن مشاريعك تستفيد من أحدث التطورات التكنولوجية.",
+    "expertise_description": "يتمتع فريقنا بخبرة في مجموعة متنوعة من لغات البرمجة وأطر التطوير وأفضل ممارسات الصناعة. نحن نبقى في صدارة المنحنى لضمان استفادة مشاريعك من أحدث التطورات التكنولوجية",
     "Let's Build Something Extraordinary Together":"دعونا نبني شيئًا استثنائيًا معًا",
-    "Contact us":" اتصل بنا ",
-    "get a qoute now":"عرض أسعار الآن "
-  
+    "Contact us":"اتصل بنا",
+    "get a qoute now":"عرض أسعار الآن ",
+     "Why Us":"لماذا نحن",
+    "Clients":"عملائنا",
+    "Work":"عمل",
+    "build_description":"ابدأ رحلة التحول الرقمي مع ASDC. سواء كان لديك مشروع محدد في الاعتبار أو كنت بحاجة إلى إرشادات حول من أين تبدأ، نحن هنا للمساعدة. دعونا نتعاون، نبتكر، ونحول أفكارك إلى واقع. مرحبًا بك في عالم من الإمكانيات اللامحدودة. مرحبًا بك في ASDC.",
+    "our Services":"خدماتنا",
+    "Empower your facility with our smart solutions & Elevate efficiency":"قم بتمكين منشأتك بحلولنا الذكية ورفع الكفاءة",
+    "Innovative Facility Management Solutions":"حلول مبتكرة لإدارة المرافق",
+    "Custom Solutions for Unique Needs":"حلول مخصصة لاحتياجات فريدة",
+    "service_description":"في ASDC، نحن متخصصون في تقديم أنظمة برمجية متطورة مصممة لتبسيط عمليات إدارة المرافق. تم تصميم حلولنا المخصصة لتلبية الاحتياجات الفريدة لمنشأتك، مما يوفر تجربة سلسة وفعالة. يتمتع فريقنا بخبرة في مجموعة متنوعة من لغات البرمجة وأطر التطوير وأفضل ممارسات الصناعة."
+
 }

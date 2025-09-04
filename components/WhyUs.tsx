@@ -8,9 +8,9 @@ function WhyUs() {
       <>
       <div className=" px-20 mt-[-200px] z-10 max-md:px-4 max-md:mt-[-150px]"> 
         <div className=" w-full text-2xl mb-3 text-black">
-          <p className="">{t("why US")}</p>
+          <p className="" data-aos="fade-left">{t("why US")}</p>
         </div>
-        <div className=" mb-10"> 
+        <div className=" mb-10" data-aos="fade-left"> 
           <h1 className=" font-bold  text-4xl max-md:text-xl ">
             {t("Here’s why people choose to work with ASDC")}
           </h1>
@@ -42,7 +42,7 @@ function WhyUs() {
               <div>
                 <p className="w-[274px] h-[140px] opacity-[70%] capitalize">
                   {t(
-                    " Our team boasts expertise in a diverse range of programming languages development frameworks, and industry best practices. We stay ahead of the curve ensuring that yourprojects benefit from the latest technological advancements."
+                    "expertise_description"
                   )}
                 </p>
               </div>
@@ -74,7 +74,7 @@ function WhyUs() {
               <div>
                 <p className="w-[274px] h-[140px] opacity-[70%] capitalize">
                   {t(
-                    " Our team boasts expertise in a diverse range of programming languages development frameworks, and industry best practices. We stay ahead of the curve ensuring that yourprojects benefit from the latest technological advancements."
+                    "expertise_description"
                   )}
                 </p>
               </div>
@@ -106,7 +106,7 @@ function WhyUs() {
               <div>
                 <p className="w-[274px] h-[140px] opacity-[70%] capitalize">
                   {t(
-                    " Our team boasts expertise in a diverse range of programming languages development frameworks, and industry best practices. We stay ahead of the curve ensuring that yourprojects benefit from the latest technological advancements."
+                    "expertise_description"
                   )}
                 </p>
               </div>
@@ -138,7 +138,7 @@ function WhyUs() {
               <div>
                 <p className="w-[274px] h-[140px] opacity-[70%] capitalize">
                   {t(
-                    " Our team boasts expertise in a diverse range of programming languages development frameworks, and industry best practices. We stay ahead of the curve ensuring that yourprojects benefit from the latest technological advancements."
+                    "expertise_description"
                   )}
                 </p>
               </div>

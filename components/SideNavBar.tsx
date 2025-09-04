@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 import img from '../public/bgnavbar.png';
-import Links from './Links'; 
-import Button from './Buttom'; 
+
+import Button from './Button'; 
 import lgo from '../public/logo.png'
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
@@ -34,20 +34,20 @@ function SideNavBar() {
   
            
             <ul className="flex flex-col gap-10 text-white ">
-          <li>
+           <li>
             <Link href="/aboutus">{t('About us')}</Link>
           </li>
           <li>
             <Link href="/aboutus">{t('Servecis')}</Link>
           </li>
           <li>
-            <Link href="/aboutus">Work</Link>
+            <Link href="/aboutus">{t('Why Us')}</Link>
           </li>
           <li>
-            <Link href="/aboutus">Clints</Link>
+            <Link href="/aboutus">{t('Clients')}</Link>
           </li>
           <li>
-            <Link href="#whyus">Why us</Link>
+            <Link href="#whyus">{t('Work')}</Link>
           </li>
         </ul>
           

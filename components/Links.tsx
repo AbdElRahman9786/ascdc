@@ -16,13 +16,13 @@ function Links() {
             <Link href="/aboutus">{t('Servecis')}</Link>
           </li>
           <li>
-            <Link href="/aboutus">Work</Link>
+            <Link href="/aboutus">{t('Why Us')}</Link>
           </li>
           <li>
-            <Link href="/aboutus">Clints</Link>
+            <Link href="/aboutus">{t('Clients')}</Link>
           </li>
           <li>
-            <Link href="#whyus">Why us</Link>
+            <Link href="#whyus">{t('Work')}</Link>
           </li>
         </ul>
       </div>

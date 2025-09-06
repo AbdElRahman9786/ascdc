@@ -1,24 +1,30 @@
 "use client";
-import { useRouter } from "next/router";
-import { Dropdown, ButtonToolbar } from "rsuite";
-import { useParams } from "next/navigation";
-function DropDown() {
-  const Params = useParams();
+
+import {usePathname, useRouter} from "next/navigation";
+import {useLocale} from "next-intl";
+
+export default function LanguageDropdown() {
+  const router = useRouter();
+  const pathname = usePathname();
+  const locale = useLocale();
+
+  // remove the current locale prefix from the path (so it can be reused)
+  const pathWithoutLocale = pathname.replace(/^\/(en|ar)/, "");
+
+  const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const nextLocale = e.target.value;
+    router.push(`/${nextLocale}${pathWithoutLocale}`);
+  };
 
   return (
-    <>
-      <ButtonToolbar>
-        <Dropdown title={Params.locale} activeKey="a">
-          <Dropdown.Item eventKey="a" className="cursor-pointer" onClick={()=>{}}>
-            en
-          </Dropdown.Item>
-          <Dropdown.Item eventKey="b" className="cursor-pointer">
-            ar
-          </Dropdown.Item>
-        </Dropdown>
-      </ButtonToolbar>
-    </>
+    <select
+      onChange={handleChange}
+      value={locale}
+      className="px-3 py-2 border rounded text-black shadow"
+      name="language"
+    >
+      <option value="en">English</option>
+      <option value="ar">العربية</option>
+    </select>
   );
 }
-
-export default DropDown;

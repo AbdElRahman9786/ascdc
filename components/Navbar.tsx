@@ -6,7 +6,7 @@ import useScreenWidth from "@/Hooks/useScreenWidth";
 import Links from "./Links";
 import Button from "./Button";
 import SideNavBar from "./SideNavBar";
-import DropDown from "./DropDown";
+import LanguageDropdown from "./DropDown";
 
 
 
@@ -30,8 +30,8 @@ const[nav,setnav]=useState(false);
 </button>
 }
         </div>
-        <div className="py-2 capitalize">
-          <DropDown/>
+        <div className=" capitalize">
+          <LanguageDropdown/>
         </div>
       </div>
     </div>

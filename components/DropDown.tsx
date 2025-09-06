@@ -20,7 +20,7 @@ export default function LanguageDropdown() {
     <select
       onChange={handleChange}
       value={locale}
-      className="px-3 py-2 border rounded text-black shadow"
+      className="px-3 py-2 border rounded text-black shadow bg-transparent"
       name="language"
     >
       <option value="en">English</option>
